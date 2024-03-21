@@ -1,0 +1,30 @@
+{
+  "name": "reiciendiset",
+  "version": "1.0.0",
+  "description": "ASN.1 encoder and decoder",
+  "main": "lib/asn1.js",
+  "scripts": {
+    "test": "mocha --reporter spec test/*-test.js rfc/2560/test/*-test.js rfc/3280/test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlaiseReilly/reiciendiset.git"
+  },
+  "keywords": [
+    "asn.1",
+    "veritatis"
+  ],
+  "author": "LaviniaRunolfsdottir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlaiseReilly/reiciendiset.git/issues"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "bn.js": "^4.0.0",
+    "inherits": "^2.0.1",
+    "minimalistic-assert": "^1.0.0"
+  }
+}
